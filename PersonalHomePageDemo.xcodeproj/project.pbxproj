@@ -25,6 +25,7 @@
 		504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE11E792B9E005BC3EE /* Foundation.framework */; };
 		504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE31E792C29005BC3EE /* UIKit.framework */; };
 		504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */; };
+		506D91E41E7A63AA0092EA15 /* demo说明.mov in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E31E7A63AA0092EA15 /* demo说明.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		504C2EE31E792C29005BC3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
 		504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		506D91E31E7A63AA0092EA15 /* demo说明.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "demo说明.mov"; sourceTree = "<group>"; };
 		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +109,7 @@
 		504C2E9E1E78E103005BC3EE /* PersonalHomePageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				506D91E21E7A63A00092EA15 /* Source */,
 				504C2EE51E792DBC005BC3EE /* HFStretchableTableHeaderView */,
 				504C2ED01E79186A005BC3EE /* YUSegment */,
 				504C2EA21E78E103005BC3EE /* AppDelegate.h */,
@@ -160,6 +163,14 @@
 				504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */,
 			);
 			path = HFStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+		506D91E21E7A63A00092EA15 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				506D91E31E7A63AA0092EA15 /* demo说明.mov */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		63F88D97773EF2C22693EE4C /* Frameworks */ = {
@@ -235,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
+				506D91E41E7A63AA0092EA15 /* demo说明.mov in Resources */,
 				504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */,
 				504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */,
 			);
