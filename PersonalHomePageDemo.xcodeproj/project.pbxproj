@@ -29,6 +29,7 @@
 		506D91EA1E7A67050092EA15 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E61E7A67050092EA15 /* 001.png */; };
 		506D91EB1E7A67050092EA15 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E71E7A67050092EA15 /* 004.png */; };
 		506D91EC1E7A67050092EA15 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E81E7A67050092EA15 /* 003.png */; };
+		506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 506D91ED1E7A77570092EA15 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		506D91E61E7A67050092EA15 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 		506D91E71E7A67050092EA15 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
 		506D91E81E7A67050092EA15 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		506D91ED1E7A77570092EA15 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 		506D91E21E7A63A00092EA15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				506D91ED1E7A77570092EA15 /* Untitled.gif */,
 				506D91E61E7A67050092EA15 /* 001.png */,
 				506D91E51E7A67050092EA15 /* 002.png */,
 				506D91E71E7A67050092EA15 /* 004.png */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				506D91EB1E7A67050092EA15 /* 004.png in Resources */,
+				506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */,
 				506D91EC1E7A67050092EA15 /* 003.png in Resources */,
 				506D91E91E7A67050092EA15 /* 002.png in Resources */,
 				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
