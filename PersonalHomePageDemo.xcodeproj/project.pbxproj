@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDE67638A8AB9B469AC3863 /* libPods-PersonalHomePageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */; };
+		504C2EA11E78E103005BC3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EA01E78E103005BC3EE /* main.m */; };
+		504C2EA41E78E103005BC3EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EA31E78E103005BC3EE /* AppDelegate.m */; };
+		504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EA81E78E103005BC3EE /* Main.storyboard */; };
+		504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EAB1E78E103005BC3EE /* Assets.xcassets */; };
+		504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */; };
+		504C2EB81E78EF8B005BC3EE /* PersonalCenterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */; };
+		504C2EBD1E78F29A005BC3EE /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */; };
+		504C2EC01E78FAA0005BC3EE /* PersonalLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */; };
+		504C2EC61E78FADC005BC3EE /* PersonalMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */; };
+		504C2EC91E78FAEC005BC3EE /* PersonalRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */; };
+		504C2ECC1E78FB2F005BC3EE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */; };
+		504C2ECF1E7909B9005BC3EE /* ContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */; };
+		504C2ED51E79186A005BC3EE /* YUMixtureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ED21E79186A005BC3EE /* YUMixtureView.m */; };
+		504C2ED61E79186A005BC3EE /* YUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ED41E79186A005BC3EE /* YUSegment.m */; };
+		504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE11E792B9E005BC3EE /* Foundation.framework */; };
+		504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE31E792C29005BC3EE /* UIKit.framework */; };
+		504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EB48D15E4D884A8D140DE9E /* Pods-PersonalHomePageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		504C2E9C1E78E103005BC3EE /* PersonalHomePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalHomePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504C2EA01E78E103005BC3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		504C2EA21E78E103005BC3EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		504C2EA31E78E103005BC3EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		504C2EA91E78E103005BC3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504C2EAB1E78E103005BC3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504C2EAE1E78E103005BC3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504C2EB01E78E103005BC3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504C2EB61E78EF8B005BC3EE /* PersonalCenterTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterTableView.h; sourceTree = "<group>"; };
+		504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTableView.m; sourceTree = "<group>"; };
+		504C2EBB1E78F29A005BC3EE /* PersonalCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
+		504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
+		504C2EBE1E78FAA0005BC3EE /* PersonalLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalLeftViewController.h; sourceTree = "<group>"; };
+		504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalLeftViewController.m; sourceTree = "<group>"; };
+		504C2EC41E78FADC005BC3EE /* PersonalMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalMiddleViewController.h; sourceTree = "<group>"; };
+		504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalMiddleViewController.m; sourceTree = "<group>"; };
+		504C2EC71E78FAEC005BC3EE /* PersonalRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalRightViewController.h; sourceTree = "<group>"; };
+		504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalRightViewController.m; sourceTree = "<group>"; };
+		504C2ECA1E78FB2F005BC3EE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		504C2ECD1E7909B9005BC3EE /* ContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCell.h; sourceTree = "<group>"; };
+		504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCell.m; sourceTree = "<group>"; };
+		504C2ED11E79186A005BC3EE /* YUMixtureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMixtureView.h; sourceTree = "<group>"; };
+		504C2ED21E79186A005BC3EE /* YUMixtureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMixtureView.m; sourceTree = "<group>"; };
+		504C2ED31E79186A005BC3EE /* YUSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUSegment.h; sourceTree = "<group>"; };
+		504C2ED41E79186A005BC3EE /* YUSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUSegment.m; sourceTree = "<group>"; };
+		504C2EE11E792B9E005BC3EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		504C2EE31E792C29005BC3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504C2E991E78E103005BC3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */,
+				504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */,
+				3CDE67638A8AB9B469AC3863 /* libPods-PersonalHomePageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18293875356A7EB58D06D46E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */,
+				0EB48D15E4D884A8D140DE9E /* Pods-PersonalHomePageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		504C2E931E78E103005BC3EE = {
+			isa = PBXGroup;
+			children = (
+				504C2E9E1E78E103005BC3EE /* PersonalHomePageDemo */,
+				504C2E9D1E78E103005BC3EE /* Products */,
+				18293875356A7EB58D06D46E /* Pods */,
+				63F88D97773EF2C22693EE4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504C2E9D1E78E103005BC3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504C2E9C1E78E103005BC3EE /* PersonalHomePageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504C2E9E1E78E103005BC3EE /* PersonalHomePageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				504C2EE51E792DBC005BC3EE /* HFStretchableTableHeaderView */,
+				504C2ED01E79186A005BC3EE /* YUSegment */,
+				504C2EA21E78E103005BC3EE /* AppDelegate.h */,
+				504C2EA31E78E103005BC3EE /* AppDelegate.m */,
+				504C2EBB1E78F29A005BC3EE /* PersonalCenterController.h */,
+				504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */,
+				504C2EB61E78EF8B005BC3EE /* PersonalCenterTableView.h */,
+				504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */,
+				504C2ECD1E7909B9005BC3EE /* ContentViewCell.h */,
+				504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */,
+				504C2ECA1E78FB2F005BC3EE /* BaseTableViewController.h */,
+				504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */,
+				504C2EBE1E78FAA0005BC3EE /* PersonalLeftViewController.h */,
+				504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */,
+				504C2EC41E78FADC005BC3EE /* PersonalMiddleViewController.h */,
+				504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */,
+				504C2EC71E78FAEC005BC3EE /* PersonalRightViewController.h */,
+				504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */,
+				504C2EA81E78E103005BC3EE /* Main.storyboard */,
+				504C2EAB1E78E103005BC3EE /* Assets.xcassets */,
+				504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */,
+				504C2EB01E78E103005BC3EE /* Info.plist */,
+				504C2E9F1E78E103005BC3EE /* Supporting Files */,
+			);
+			path = PersonalHomePageDemo;
+			sourceTree = "<group>";
+		};
+		504C2E9F1E78E103005BC3EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				504C2EA01E78E103005BC3EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		504C2ED01E79186A005BC3EE /* YUSegment */ = {
+			isa = PBXGroup;
+			children = (
+				504C2ED11E79186A005BC3EE /* YUMixtureView.h */,
+				504C2ED21E79186A005BC3EE /* YUMixtureView.m */,
+				504C2ED31E79186A005BC3EE /* YUSegment.h */,
+				504C2ED41E79186A005BC3EE /* YUSegment.m */,
+			);
+			path = YUSegment;
+			sourceTree = "<group>";
+		};
+		504C2EE51E792DBC005BC3EE /* HFStretchableTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */,
+				504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */,
+			);
+			path = HFStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+		63F88D97773EF2C22693EE4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				504C2EE31E792C29005BC3EE /* UIKit.framework */,
+				504C2EE11E792B9E005BC3EE /* Foundation.framework */,
+				637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504C2E9B1E78E103005BC3EE /* PersonalHomePageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504C2EB31E78E103005BC3EE /* Build configuration list for PBXNativeTarget "PersonalHomePageDemo" */;
+			buildPhases = (
+				E979C33F66D12C7E5CD61353 /* [CP] Check Pods Manifest.lock */,
+				504C2E981E78E103005BC3EE /* Sources */,
+				504C2E991E78E103005BC3EE /* Frameworks */,
+				504C2E9A1E78E103005BC3EE /* Resources */,
+				8A4A6383B7EB921DEAA77258 /* [CP] Embed Pods Frameworks */,
+				BF786B3DB878391A30917B42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalHomePageDemo;
+			productName = PersonalHomePageDemo;
+			productReference = 504C2E9C1E78E103005BC3EE /* PersonalHomePageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504C2E941E78E103005BC3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = huangkejin;
+				TargetAttributes = {
+					504C2E9B1E78E103005BC3EE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NHFRA6S4N6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 504C2E971E78E103005BC3EE /* Build configuration list for PBXProject "PersonalHomePageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504C2E931E78E103005BC3EE;
+			productRefGroup = 504C2E9D1E78E103005BC3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504C2E9B1E78E103005BC3EE /* PersonalHomePageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504C2E9A1E78E103005BC3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
+				504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */,
+				504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A4A6383B7EB921DEAA77258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF786B3DB878391A30917B42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E979C33F66D12C7E5CD61353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504C2E981E78E103005BC3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504C2EC01E78FAA0005BC3EE /* PersonalLeftViewController.m in Sources */,
+				504C2EC91E78FAEC005BC3EE /* PersonalRightViewController.m in Sources */,
+				504C2ECF1E7909B9005BC3EE /* ContentViewCell.m in Sources */,
+				504C2ED61E79186A005BC3EE /* YUSegment.m in Sources */,
+				504C2EB81E78EF8B005BC3EE /* PersonalCenterTableView.m in Sources */,
+				504C2EBD1E78F29A005BC3EE /* PersonalCenterController.m in Sources */,
+				504C2EA41E78E103005BC3EE /* AppDelegate.m in Sources */,
+				504C2EA11E78E103005BC3EE /* main.m in Sources */,
+				504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */,
+				504C2ECC1E78FB2F005BC3EE /* BaseTableViewController.m in Sources */,
+				504C2EC61E78FADC005BC3EE /* PersonalMiddleViewController.m in Sources */,
+				504C2ED51E79186A005BC3EE /* YUMixtureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504C2EA81E78E103005BC3EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504C2EA91E78E103005BC3EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504C2EAE1E78E103005BC3EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504C2EB11E78E103005BC3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		504C2EB21E78E103005BC3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504C2EB41E78E103005BC3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = PersonalHomePageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkjinss-163.com.PersonalHomePageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		504C2EB51E78E103005BC3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB48D15E4D884A8D140DE9E /* Pods-PersonalHomePageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = PersonalHomePageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hkjinss-163.com.PersonalHomePageDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504C2E971E78E103005BC3EE /* Build configuration list for PBXProject "PersonalHomePageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504C2EB11E78E103005BC3EE /* Debug */,
+				504C2EB21E78E103005BC3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504C2EB31E78E103005BC3EE /* Build configuration list for PBXNativeTarget "PersonalHomePageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504C2EB41E78E103005BC3EE /* Debug */,
+				504C2EB51E78E103005BC3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504C2E941E78E103005BC3EE /* Project object */;
+}
