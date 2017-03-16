@@ -25,7 +25,10 @@
 		504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE11E792B9E005BC3EE /* Foundation.framework */; };
 		504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE31E792C29005BC3EE /* UIKit.framework */; };
 		504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */; };
-		506D91E41E7A63AA0092EA15 /* demo说明.mov in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E31E7A63AA0092EA15 /* demo说明.mov */; };
+		506D91E91E7A67050092EA15 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E51E7A67050092EA15 /* 002.png */; };
+		506D91EA1E7A67050092EA15 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E61E7A67050092EA15 /* 001.png */; };
+		506D91EB1E7A67050092EA15 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E71E7A67050092EA15 /* 004.png */; };
+		506D91EC1E7A67050092EA15 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E81E7A67050092EA15 /* 003.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +63,10 @@
 		504C2EE31E792C29005BC3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
 		504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
-		506D91E31E7A63AA0092EA15 /* demo说明.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "demo说明.mov"; sourceTree = "<group>"; };
+		506D91E51E7A67050092EA15 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		506D91E61E7A67050092EA15 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		506D91E71E7A67050092EA15 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		506D91E81E7A67050092EA15 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
 		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,7 +174,10 @@
 		506D91E21E7A63A00092EA15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				506D91E31E7A63AA0092EA15 /* demo说明.mov */,
+				506D91E61E7A67050092EA15 /* 001.png */,
+				506D91E51E7A67050092EA15 /* 002.png */,
+				506D91E71E7A67050092EA15 /* 004.png */,
+				506D91E81E7A67050092EA15 /* 003.png */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -245,10 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506D91EB1E7A67050092EA15 /* 004.png in Resources */,
+				506D91EC1E7A67050092EA15 /* 003.png in Resources */,
+				506D91E91E7A67050092EA15 /* 002.png in Resources */,
 				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
-				506D91E41E7A63AA0092EA15 /* demo说明.mov in Resources */,
 				504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */,
 				504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */,
+				506D91EA1E7A67050092EA15 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
