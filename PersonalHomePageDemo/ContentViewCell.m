@@ -19,12 +19,20 @@
 
 @property (strong, nonatomic) UIPageViewController *pageViewCtrl;
 
+@property (strong, nonatomic) UIScrollView *pageScrollView;
+
 @end
 
 //得到屏幕width
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
 @implementation ContentViewCell
+
+- (void)dealloc {
+    //清除监听
+    [self.pageScrollView removeObserver:self forKeyPath:@"panGestureRecognizer.state"];
+    
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -59,7 +67,8 @@
     for (UIView *view in self.pageViewCtrl.view.subviews) {
         if ([view isKindOfClass:[UIScrollView class]]) {
             //监听拖动手势
-            [view addObserver:self
+            self.pageScrollView = (UIScrollView *)view;
+            [self.pageScrollView addObserver:self
                                forKeyPath:@"panGestureRecognizer.state"
                                   options:NSKeyValueObservingOptionNew
                                   context:nil];
