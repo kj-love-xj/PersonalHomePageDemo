@@ -9,68 +9,70 @@
 /* Begin PBXBuildFile section */
 		3CDE67638A8AB9B469AC3863 /* libPods-PersonalHomePageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */; };
 		504C2EA11E78E103005BC3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EA01E78E103005BC3EE /* main.m */; };
-		504C2EA41E78E103005BC3EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EA31E78E103005BC3EE /* AppDelegate.m */; };
 		504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EA81E78E103005BC3EE /* Main.storyboard */; };
 		504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EAB1E78E103005BC3EE /* Assets.xcassets */; };
 		504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */; };
-		504C2EB81E78EF8B005BC3EE /* PersonalCenterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */; };
-		504C2EBD1E78F29A005BC3EE /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */; };
-		504C2EC01E78FAA0005BC3EE /* PersonalLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */; };
-		504C2EC61E78FADC005BC3EE /* PersonalMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */; };
-		504C2EC91E78FAEC005BC3EE /* PersonalRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */; };
-		504C2ECC1E78FB2F005BC3EE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */; };
-		504C2ECF1E7909B9005BC3EE /* ContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */; };
-		504C2ED51E79186A005BC3EE /* YUMixtureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ED21E79186A005BC3EE /* YUMixtureView.m */; };
-		504C2ED61E79186A005BC3EE /* YUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2ED41E79186A005BC3EE /* YUSegment.m */; };
 		504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE11E792B9E005BC3EE /* Foundation.framework */; };
 		504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE31E792C29005BC3EE /* UIKit.framework */; };
-		504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */; };
-		506D91E91E7A67050092EA15 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E51E7A67050092EA15 /* 002.png */; };
-		506D91EA1E7A67050092EA15 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E61E7A67050092EA15 /* 001.png */; };
-		506D91EB1E7A67050092EA15 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E71E7A67050092EA15 /* 004.png */; };
-		506D91EC1E7A67050092EA15 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 506D91E81E7A67050092EA15 /* 003.png */; };
-		506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 506D91ED1E7A77570092EA15 /* Untitled.gif */; };
+		AAC36CC81E987AF50058C627 /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB01E987AF50058C627 /* HFStretchableTableHeaderView.m */; };
+		AAC36CC91E987AF50058C627 /* YUMixtureView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB31E987AF50058C627 /* YUMixtureView.m */; };
+		AAC36CCA1E987AF50058C627 /* YUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB51E987AF50058C627 /* YUSegment.m */; };
+		AAC36CCB1E987AF50058C627 /* ContentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB81E987AF50058C627 /* ContentViewCell.m */; };
+		AAC36CCC1E987AF50058C627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CBB1E987AF50058C627 /* AppDelegate.m */; };
+		AAC36CCD1E987AF50058C627 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CBD1E987AF50058C627 /* BaseTableViewController.m */; };
+		AAC36CCE1E987AF50058C627 /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CBF1E987AF50058C627 /* PersonalCenterController.m */; };
+		AAC36CCF1E987AF50058C627 /* PersonalCenterTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CC11E987AF50058C627 /* PersonalCenterTableView.m */; };
+		AAC36CD01E987AF50058C627 /* PersonalLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CC31E987AF50058C627 /* PersonalLeftViewController.m */; };
+		AAC36CD11E987AF50058C627 /* PersonalMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CC51E987AF50058C627 /* PersonalMiddleViewController.m */; };
+		AAC36CD21E987AF50058C627 /* PersonalRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CC71E987AF50058C627 /* PersonalRightViewController.m */; };
+		AAC36CD91E987B4D0058C627 /* DLUserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CD41E987B4D0058C627 /* DLUserHeaderView.m */; };
+		AAC36CDA1E987B4D0058C627 /* DLUserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CD51E987B4D0058C627 /* DLUserHeaderView.xib */; };
+		AAC36CDB1E987B4D0058C627 /* DLUserPageNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CD71E987B4D0058C627 /* DLUserPageNavBar.m */; };
+		AAC36CDC1E987B4D0058C627 /* DLUserPageNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CD81E987B4D0058C627 /* DLUserPageNavBar.xib */; };
+		AAC36CDE1E9889E80058C627 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CDD1E9889E80058C627 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EB48D15E4D884A8D140DE9E /* Pods-PersonalHomePageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		504C2E9C1E78E103005BC3EE /* PersonalHomePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalHomePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		504C2EA01E78E103005BC3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		504C2EA21E78E103005BC3EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		504C2EA31E78E103005BC3EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		504C2EA91E78E103005BC3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		504C2EAB1E78E103005BC3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504C2EAE1E78E103005BC3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		504C2EB01E78E103005BC3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		504C2EB61E78EF8B005BC3EE /* PersonalCenterTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterTableView.h; sourceTree = "<group>"; };
-		504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTableView.m; sourceTree = "<group>"; };
-		504C2EBB1E78F29A005BC3EE /* PersonalCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
-		504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
-		504C2EBE1E78FAA0005BC3EE /* PersonalLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalLeftViewController.h; sourceTree = "<group>"; };
-		504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalLeftViewController.m; sourceTree = "<group>"; };
-		504C2EC41E78FADC005BC3EE /* PersonalMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalMiddleViewController.h; sourceTree = "<group>"; };
-		504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalMiddleViewController.m; sourceTree = "<group>"; };
-		504C2EC71E78FAEC005BC3EE /* PersonalRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalRightViewController.h; sourceTree = "<group>"; };
-		504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalRightViewController.m; sourceTree = "<group>"; };
-		504C2ECA1E78FB2F005BC3EE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
-		504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
-		504C2ECD1E7909B9005BC3EE /* ContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCell.h; sourceTree = "<group>"; };
-		504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCell.m; sourceTree = "<group>"; };
-		504C2ED11E79186A005BC3EE /* YUMixtureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMixtureView.h; sourceTree = "<group>"; };
-		504C2ED21E79186A005BC3EE /* YUMixtureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMixtureView.m; sourceTree = "<group>"; };
-		504C2ED31E79186A005BC3EE /* YUSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUSegment.h; sourceTree = "<group>"; };
-		504C2ED41E79186A005BC3EE /* YUSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUSegment.m; sourceTree = "<group>"; };
 		504C2EE11E792B9E005BC3EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		504C2EE31E792C29005BC3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
-		504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
-		506D91E51E7A67050092EA15 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
-		506D91E61E7A67050092EA15 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
-		506D91E71E7A67050092EA15 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
-		506D91E81E7A67050092EA15 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
-		506D91ED1E7A77570092EA15 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC36CAF1E987AF50058C627 /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		AAC36CB01E987AF50058C627 /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		AAC36CB21E987AF50058C627 /* YUMixtureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUMixtureView.h; sourceTree = "<group>"; };
+		AAC36CB31E987AF50058C627 /* YUMixtureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUMixtureView.m; sourceTree = "<group>"; };
+		AAC36CB41E987AF50058C627 /* YUSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUSegment.h; sourceTree = "<group>"; };
+		AAC36CB51E987AF50058C627 /* YUSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUSegment.m; sourceTree = "<group>"; };
+		AAC36CB71E987AF50058C627 /* ContentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewCell.h; sourceTree = "<group>"; };
+		AAC36CB81E987AF50058C627 /* ContentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewCell.m; sourceTree = "<group>"; };
+		AAC36CBA1E987AF50058C627 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAC36CBB1E987AF50058C627 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAC36CBC1E987AF50058C627 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		AAC36CBD1E987AF50058C627 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		AAC36CBE1E987AF50058C627 /* PersonalCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
+		AAC36CBF1E987AF50058C627 /* PersonalCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
+		AAC36CC01E987AF50058C627 /* PersonalCenterTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterTableView.h; sourceTree = "<group>"; };
+		AAC36CC11E987AF50058C627 /* PersonalCenterTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTableView.m; sourceTree = "<group>"; };
+		AAC36CC21E987AF50058C627 /* PersonalLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalLeftViewController.h; sourceTree = "<group>"; };
+		AAC36CC31E987AF50058C627 /* PersonalLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalLeftViewController.m; sourceTree = "<group>"; };
+		AAC36CC41E987AF50058C627 /* PersonalMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalMiddleViewController.h; sourceTree = "<group>"; };
+		AAC36CC51E987AF50058C627 /* PersonalMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalMiddleViewController.m; sourceTree = "<group>"; };
+		AAC36CC61E987AF50058C627 /* PersonalRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalRightViewController.h; sourceTree = "<group>"; };
+		AAC36CC71E987AF50058C627 /* PersonalRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalRightViewController.m; sourceTree = "<group>"; };
+		AAC36CD31E987B4D0058C627 /* DLUserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUserHeaderView.h; sourceTree = "<group>"; };
+		AAC36CD41E987B4D0058C627 /* DLUserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUserHeaderView.m; sourceTree = "<group>"; };
+		AAC36CD51E987B4D0058C627 /* DLUserHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLUserHeaderView.xib; sourceTree = "<group>"; };
+		AAC36CD61E987B4D0058C627 /* DLUserPageNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUserPageNavBar.h; sourceTree = "<group>"; };
+		AAC36CD71E987B4D0058C627 /* DLUserPageNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUserPageNavBar.m; sourceTree = "<group>"; };
+		AAC36CD81E987B4D0058C627 /* DLUserPageNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLUserPageNavBar.xib; sourceTree = "<group>"; };
+		AAC36CDD1E9889E80058C627 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,25 +119,10 @@
 		504C2E9E1E78E103005BC3EE /* PersonalHomePageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AAC36CAD1E987AF50058C627 /* Lib */,
+				AAC36CB61E987AF50058C627 /* View */,
+				AAC36CB91E987AF50058C627 /* ViewController */,
 				506D91E21E7A63A00092EA15 /* Source */,
-				504C2EE51E792DBC005BC3EE /* HFStretchableTableHeaderView */,
-				504C2ED01E79186A005BC3EE /* YUSegment */,
-				504C2EA21E78E103005BC3EE /* AppDelegate.h */,
-				504C2EA31E78E103005BC3EE /* AppDelegate.m */,
-				504C2EBB1E78F29A005BC3EE /* PersonalCenterController.h */,
-				504C2EBC1E78F29A005BC3EE /* PersonalCenterController.m */,
-				504C2EB61E78EF8B005BC3EE /* PersonalCenterTableView.h */,
-				504C2EB71E78EF8B005BC3EE /* PersonalCenterTableView.m */,
-				504C2ECD1E7909B9005BC3EE /* ContentViewCell.h */,
-				504C2ECE1E7909B9005BC3EE /* ContentViewCell.m */,
-				504C2ECA1E78FB2F005BC3EE /* BaseTableViewController.h */,
-				504C2ECB1E78FB2F005BC3EE /* BaseTableViewController.m */,
-				504C2EBE1E78FAA0005BC3EE /* PersonalLeftViewController.h */,
-				504C2EBF1E78FAA0005BC3EE /* PersonalLeftViewController.m */,
-				504C2EC41E78FADC005BC3EE /* PersonalMiddleViewController.h */,
-				504C2EC51E78FADC005BC3EE /* PersonalMiddleViewController.m */,
-				504C2EC71E78FAEC005BC3EE /* PersonalRightViewController.h */,
-				504C2EC81E78FAEC005BC3EE /* PersonalRightViewController.m */,
 				504C2EA81E78E103005BC3EE /* Main.storyboard */,
 				504C2EAB1E78E103005BC3EE /* Assets.xcassets */,
 				504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */,
@@ -153,34 +140,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		504C2ED01E79186A005BC3EE /* YUSegment */ = {
-			isa = PBXGroup;
-			children = (
-				504C2ED11E79186A005BC3EE /* YUMixtureView.h */,
-				504C2ED21E79186A005BC3EE /* YUMixtureView.m */,
-				504C2ED31E79186A005BC3EE /* YUSegment.h */,
-				504C2ED41E79186A005BC3EE /* YUSegment.m */,
-			);
-			path = YUSegment;
-			sourceTree = "<group>";
-		};
-		504C2EE51E792DBC005BC3EE /* HFStretchableTableHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				504C2EE61E792DBC005BC3EE /* HFStretchableTableHeaderView.h */,
-				504C2EE71E792DBC005BC3EE /* HFStretchableTableHeaderView.m */,
-			);
-			path = HFStretchableTableHeaderView;
-			sourceTree = "<group>";
-		};
 		506D91E21E7A63A00092EA15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				506D91ED1E7A77570092EA15 /* Untitled.gif */,
-				506D91E61E7A67050092EA15 /* 001.png */,
-				506D91E51E7A67050092EA15 /* 002.png */,
-				506D91E71E7A67050092EA15 /* 004.png */,
-				506D91E81E7A67050092EA15 /* 003.png */,
+				AAC36CDD1E9889E80058C627 /* Untitled.gif */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -193,6 +156,71 @@
 				637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC36CAD1E987AF50058C627 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AAC36CAE1E987AF50058C627 /* HFStretchableTableHeaderView */,
+				AAC36CB11E987AF50058C627 /* YUSegment */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AAC36CAE1E987AF50058C627 /* HFStretchableTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				AAC36CAF1E987AF50058C627 /* HFStretchableTableHeaderView.h */,
+				AAC36CB01E987AF50058C627 /* HFStretchableTableHeaderView.m */,
+			);
+			path = HFStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+		AAC36CB11E987AF50058C627 /* YUSegment */ = {
+			isa = PBXGroup;
+			children = (
+				AAC36CB21E987AF50058C627 /* YUMixtureView.h */,
+				AAC36CB31E987AF50058C627 /* YUMixtureView.m */,
+				AAC36CB41E987AF50058C627 /* YUSegment.h */,
+				AAC36CB51E987AF50058C627 /* YUSegment.m */,
+			);
+			path = YUSegment;
+			sourceTree = "<group>";
+		};
+		AAC36CB61E987AF50058C627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAC36CD31E987B4D0058C627 /* DLUserHeaderView.h */,
+				AAC36CD41E987B4D0058C627 /* DLUserHeaderView.m */,
+				AAC36CD51E987B4D0058C627 /* DLUserHeaderView.xib */,
+				AAC36CD61E987B4D0058C627 /* DLUserPageNavBar.h */,
+				AAC36CD71E987B4D0058C627 /* DLUserPageNavBar.m */,
+				AAC36CD81E987B4D0058C627 /* DLUserPageNavBar.xib */,
+				AAC36CB71E987AF50058C627 /* ContentViewCell.h */,
+				AAC36CB81E987AF50058C627 /* ContentViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAC36CB91E987AF50058C627 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AAC36CBA1E987AF50058C627 /* AppDelegate.h */,
+				AAC36CBB1E987AF50058C627 /* AppDelegate.m */,
+				AAC36CBC1E987AF50058C627 /* BaseTableViewController.h */,
+				AAC36CBD1E987AF50058C627 /* BaseTableViewController.m */,
+				AAC36CBE1E987AF50058C627 /* PersonalCenterController.h */,
+				AAC36CBF1E987AF50058C627 /* PersonalCenterController.m */,
+				AAC36CC01E987AF50058C627 /* PersonalCenterTableView.h */,
+				AAC36CC11E987AF50058C627 /* PersonalCenterTableView.m */,
+				AAC36CC21E987AF50058C627 /* PersonalLeftViewController.h */,
+				AAC36CC31E987AF50058C627 /* PersonalLeftViewController.m */,
+				AAC36CC41E987AF50058C627 /* PersonalMiddleViewController.h */,
+				AAC36CC51E987AF50058C627 /* PersonalMiddleViewController.m */,
+				AAC36CC61E987AF50058C627 /* PersonalRightViewController.h */,
+				AAC36CC71E987AF50058C627 /* PersonalRightViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +257,7 @@
 				TargetAttributes = {
 					504C2E9B1E78E103005BC3EE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = NHFRA6S4N6;
+						DevelopmentTeam = 27XVM2QM7Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -257,14 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506D91EB1E7A67050092EA15 /* 004.png in Resources */,
-				506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */,
-				506D91EC1E7A67050092EA15 /* 003.png in Resources */,
-				506D91E91E7A67050092EA15 /* 002.png in Resources */,
+				AAC36CDA1E987B4D0058C627 /* DLUserHeaderView.xib in Resources */,
+				AAC36CDE1E9889E80058C627 /* Untitled.gif in Resources */,
 				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
+				AAC36CDC1E987B4D0058C627 /* DLUserPageNavBar.xib in Resources */,
 				504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */,
 				504C2EAA1E78E103005BC3EE /* Main.storyboard in Resources */,
-				506D91EA1E7A67050092EA15 /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,18 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				504C2EC01E78FAA0005BC3EE /* PersonalLeftViewController.m in Sources */,
-				504C2EC91E78FAEC005BC3EE /* PersonalRightViewController.m in Sources */,
-				504C2ECF1E7909B9005BC3EE /* ContentViewCell.m in Sources */,
-				504C2ED61E79186A005BC3EE /* YUSegment.m in Sources */,
-				504C2EB81E78EF8B005BC3EE /* PersonalCenterTableView.m in Sources */,
-				504C2EBD1E78F29A005BC3EE /* PersonalCenterController.m in Sources */,
-				504C2EA41E78E103005BC3EE /* AppDelegate.m in Sources */,
+				AAC36CC81E987AF50058C627 /* HFStretchableTableHeaderView.m in Sources */,
+				AAC36CD21E987AF50058C627 /* PersonalRightViewController.m in Sources */,
 				504C2EA11E78E103005BC3EE /* main.m in Sources */,
-				504C2EE81E792DBC005BC3EE /* HFStretchableTableHeaderView.m in Sources */,
-				504C2ECC1E78FB2F005BC3EE /* BaseTableViewController.m in Sources */,
-				504C2EC61E78FADC005BC3EE /* PersonalMiddleViewController.m in Sources */,
-				504C2ED51E79186A005BC3EE /* YUMixtureView.m in Sources */,
+				AAC36CCC1E987AF50058C627 /* AppDelegate.m in Sources */,
+				AAC36CCF1E987AF50058C627 /* PersonalCenterTableView.m in Sources */,
+				AAC36CD11E987AF50058C627 /* PersonalMiddleViewController.m in Sources */,
+				AAC36CCD1E987AF50058C627 /* BaseTableViewController.m in Sources */,
+				AAC36CD01E987AF50058C627 /* PersonalLeftViewController.m in Sources */,
+				AAC36CD91E987B4D0058C627 /* DLUserHeaderView.m in Sources */,
+				AAC36CC91E987AF50058C627 /* YUMixtureView.m in Sources */,
+				AAC36CCA1E987AF50058C627 /* YUSegment.m in Sources */,
+				AAC36CCE1E987AF50058C627 /* PersonalCenterController.m in Sources */,
+				AAC36CCB1E987AF50058C627 /* ContentViewCell.m in Sources */,
+				AAC36CDB1E987B4D0058C627 /* DLUserPageNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +481,7 @@
 			baseConfigurationReference = 94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				DEVELOPMENT_TEAM = 27XVM2QM7Z;
 				INFOPLIST_FILE = PersonalHomePageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -467,7 +495,7 @@
 			baseConfigurationReference = 0EB48D15E4D884A8D140DE9E /* Pods-PersonalHomePageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				DEVELOPMENT_TEAM = 27XVM2QM7Z;
 				INFOPLIST_FILE = PersonalHomePageDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
