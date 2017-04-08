@@ -11,8 +11,10 @@
 #import "ContentViewCell.h"
 #import "HFStretchableTableHeaderView.h"
 #import "YUSegment.h"
-
-@interface PersonalCenterController ()<UITableViewDelegate, UITableViewDataSource>
+#import "DLUserPageNavBar.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "DLUserHeaderView.h"
+@interface PersonalCenterController ()<UITableViewDelegate, UITableViewDataSource,DLUserPageNavBarDelegate>
 //tableView
 @property (strong, nonatomic) IBOutlet PersonalCenterTableView *tableView;
 //下拉头部放大控件
@@ -24,7 +26,7 @@
 //pageViewController
 @property (strong, nonatomic) ContentViewCell *contentCell;
 //导航栏的背景view
-@property (strong, nonatomic) UIImageView *barImageView;
+@property (strong, nonatomic) DLUserPageNavBar *userPageNavBar;
 
 @end
 
@@ -32,6 +34,31 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
 @implementation PersonalCenterController
+
+
+-(DLUserPageNavBar *)userPageNavBar
+{
+    if (!_userPageNavBar) {
+        _userPageNavBar = [DLUserPageNavBar userPageNavBar];
+        _userPageNavBar.delegate = self;
+        _userPageNavBar.dl_alpha = 0;
+        _userPageNavBar.frame = CGRectMake(0, 0, SCREEN_WIDTH, 64);
+    }
+    return _userPageNavBar;
+}
+
+
+-(YUSegment *)segment
+{
+    if (!_segment) {
+        //分段控制器 YUSegment
+        _segment = [[YUSegment alloc] initWithTitles:@[@"left",@"middle",@"right"]];
+        _segment.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
+        _segment.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1];
+        [_segment addTarget:self action:@selector(onSegmentChange) forControlEvents:UIControlEventValueChanged];
+    }
+    return _segment;
+}
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
@@ -42,32 +69,22 @@
     self.canScroll = YES;
     self.title = @"";
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.barImageView = self.navigationController.navigationBar.subviews.firstObject;
-    self.barImageView.alpha = 0;
+    self.fd_prefersNavigationBarHidden = YES;
+    [self.view addSubview:self.userPageNavBar];
     
     //通知的处理，本来也不需要这么多通知，只是写一个简单的demo，所以...根据项目实际情况进行优化吧 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPageViewCtrlChange:) name:@"CenterPageViewScroll" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onOtherScrollToTop:) name:@"kLeaveTopNtf" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onScrollBottomView:) name:@"PageViewGestureState" object:nil];
+    
     self.tableView.showsVerticalScrollIndicator = NO;
     [ContentViewCell regisCellForTableView:self.tableView];
     
-    //分段控制器 YUSegment
-    self.segment = [[YUSegment alloc] initWithTitles:@[@"left",@"middle",@"right"]];
-    self.segment.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
-    self.segment.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1];
-    [self.segment addTarget:self action:@selector(onSegmentChange) forControlEvents:UIControlEventValueChanged];
-    
-    //tableView headerview
-    UIImage *image = [UIImage imageNamed:@"pc_bg"];
-    NSLog(@"image.height = %f",image.size.height);
-    UIImageView *headerView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, image.size.height)];
-    headerView.image = image;
-    headerView.contentMode = UIViewContentModeScaleAspectFill;
-
-    //下拉放大
+    DLUserHeaderView *headerView = [DLUserHeaderView userHeaderView];
+    headerView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH  / 1.34 );
     _stretchableTableHeaderView = [HFStretchableTableHeaderView new];
     [_stretchableTableHeaderView stretchHeaderForTableView:self.tableView withView:headerView];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -127,6 +144,8 @@
     return self.segment;
 }
 
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (!self.contentCell) {
         self.contentCell = [ContentViewCell dequeueCellForTableView:tableView];
@@ -138,17 +157,18 @@
     return self.contentCell;
 }
 
+
+#pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     //下拉放大 必须实现
     [_stretchableTableHeaderView scrollViewDidScroll:scrollView];
     
     //计算导航栏的透明度
-    UIImage *image = [UIImage imageNamed:@"pc_bg"];
     CGFloat minAlphaOffset = 0;
-    CGFloat maxAlphaOffset = image.size.height-64;
+    CGFloat maxAlphaOffset = SCREEN_WIDTH  / 1.34 - 64;
     CGFloat offset = scrollView.contentOffset.y;
     CGFloat alpha = (offset - minAlphaOffset) / (maxAlphaOffset - minAlphaOffset);
-    _barImageView.alpha = alpha;
+    self.userPageNavBar.dl_alpha = alpha;
 
     //根据导航栏透明度设置title
     if (alpha > 0.5) {
@@ -171,6 +191,12 @@
             scrollView.contentOffset = CGPointMake(0, tabOffsetY);
         }
     }
+}
+
+#pragma mark - DLUserPageNavBarDelegate
+-(void)userPagNavBar:(DLUserPageNavBar *)navBar didClickButton:(DLUserPageButtonType)buttonType
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 //下拉放大必须实现

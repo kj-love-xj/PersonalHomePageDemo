@@ -17,17 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    self.mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    CATransition *transition = [[CATransition alloc] init];
-    transition.duration = 0.25;
-    [self.window.layer addAnimation:transition forKey:nil];
     
-    PersonalCenterController *ctrl = [self.mainStoryboard instantiateViewControllerWithIdentifier:@"PersonalCenterController"];
-    UINavigationController *navc = [[UINavigationController alloc] initWithRootViewController:ctrl];
-    self.window.rootViewController = navc;
-    [self.window makeKeyAndVisible];
+    NSString *imageName = @"ft_main_navigationBarBackImage";
+
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:imageName] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     return YES;
 }
