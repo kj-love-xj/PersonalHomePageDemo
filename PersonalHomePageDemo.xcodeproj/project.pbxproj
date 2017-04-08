@@ -14,7 +14,6 @@
 		504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504C2EAD1E78E103005BC3EE /* LaunchScreen.storyboard */; };
 		504C2EE21E792B9E005BC3EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE11E792B9E005BC3EE /* Foundation.framework */; };
 		504C2EE41E792C29005BC3EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504C2EE31E792C29005BC3EE /* UIKit.framework */; };
-		506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 506D91ED1E7A77570092EA15 /* Untitled.gif */; };
 		AAC36CC81E987AF50058C627 /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB01E987AF50058C627 /* HFStretchableTableHeaderView.m */; };
 		AAC36CC91E987AF50058C627 /* YUMixtureView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB31E987AF50058C627 /* YUMixtureView.m */; };
 		AAC36CCA1E987AF50058C627 /* YUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CB51E987AF50058C627 /* YUSegment.m */; };
@@ -30,6 +29,7 @@
 		AAC36CDA1E987B4D0058C627 /* DLUserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CD51E987B4D0058C627 /* DLUserHeaderView.xib */; };
 		AAC36CDB1E987B4D0058C627 /* DLUserPageNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC36CD71E987B4D0058C627 /* DLUserPageNavBar.m */; };
 		AAC36CDC1E987B4D0058C627 /* DLUserPageNavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CD81E987B4D0058C627 /* DLUserPageNavBar.xib */; };
+		AAC36CDE1E9889E80058C627 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = AAC36CDD1E9889E80058C627 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		504C2EB01E78E103005BC3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		504C2EE11E792B9E005BC3EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		504C2EE31E792C29005BC3EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		506D91ED1E7A77570092EA15 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 		637A315850E49DE1BAC222CF /* libPods-PersonalHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94068190712FD64FFFD718FD /* Pods-PersonalHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalHomePageDemo/Pods-PersonalHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC36CAF1E987AF50058C627 /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		AAC36CD61E987B4D0058C627 /* DLUserPageNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUserPageNavBar.h; sourceTree = "<group>"; };
 		AAC36CD71E987B4D0058C627 /* DLUserPageNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUserPageNavBar.m; sourceTree = "<group>"; };
 		AAC36CD81E987B4D0058C627 /* DLUserPageNavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLUserPageNavBar.xib; sourceTree = "<group>"; };
+		AAC36CDD1E9889E80058C627 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 		506D91E21E7A63A00092EA15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				506D91ED1E7A77570092EA15 /* Untitled.gif */,
+				AAC36CDD1E9889E80058C627 /* Untitled.gif */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -285,8 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506D91EE1E7A77570092EA15 /* Untitled.gif in Resources */,
 				AAC36CDA1E987B4D0058C627 /* DLUserHeaderView.xib in Resources */,
+				AAC36CDE1E9889E80058C627 /* Untitled.gif in Resources */,
 				504C2EAF1E78E103005BC3EE /* LaunchScreen.storyboard in Resources */,
 				AAC36CDC1E987B4D0058C627 /* DLUserPageNavBar.xib in Resources */,
 				504C2EAC1E78E103005BC3EE /* Assets.xcassets in Resources */,

@@ -22,11 +22,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8l-zL-9aB">
-                                <rect key="frame" x="141" y="318.5" width="92" height="30"/>
+                                <rect key="frame" x="132.5" y="319" width="111" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8Gd-Ik-4yl"/>
-                                    <constraint firstAttribute="width" constant="92" id="hkj-pL-yPt"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="微博个人主页"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="push" id="92q-WG-Fxp"/>
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fSd-Ow-VpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="-18"/>
+            <point key="canvasLocation" x="-98" y="-26"/>
         </scene>
         <!--Personal Center Controller-->
         <scene sceneID="tne-QT-ifu">
