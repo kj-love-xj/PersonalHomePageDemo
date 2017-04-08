@@ -7,6 +7,3 @@
 
 该demo主要是实现下拉放大以及达到微博主页的效果，导航栏透明度渐变，由于是demo,所以直接用的UIPageViewController,pageView的一些缺陷大家不要在意。分段控制器使用的是YUSegment,下拉放大用的很老但很实用的HFStretchableTableHeaderView，感谢！
 
-感谢@Liqiankun(https://github.com/Liqiankun)
-https://github.com/Liqiankun/PersonalHomePageDemo
-对导航渐变做了更好的优化方案，感谢！
